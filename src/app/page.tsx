@@ -2,26 +2,13 @@
 
 import Hero from '@/components/Hero'
 import StatsGrid from '@/components/StatsGrid'
-import ServicesGrid from '@/components/ServicesGrid'
-import ProcessSteps from '@/components/ProcessSteps'
-import PortfolioGrid from '@/components/PortfolioGrid'
-import VideoSlider from '@/components/VideoSlider'
-import ContactForm from '@/components/ContactForm'
 import { brands } from '@/data/seed'
 
 export default function Home() {
-  const handleEnquirySuccess = (ticketId: string) => {
-    console.log('Enquiry submitted successfully with ticket ID:', ticketId)
-    // You could add additional success handling here, like showing a toast
-    // or triggering analytics events
-  }
-
   return (
     <>
       <Hero />
       <StatsGrid />
-      <ServicesGrid />
-      <ProcessSteps />
 
       {/* Brands Section */}
       <section className="section-padding bg-surface">
@@ -49,9 +36,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <PortfolioGrid />
-      <VideoSlider />
 
       {/* Media Kit Section */}
       <section id="media-kit" className="section-padding">
@@ -89,13 +73,6 @@ export default function Home() {
               Download Media Kit
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="section-padding bg-surface">
-        <div className="container">
-          <ContactForm onSuccess={handleEnquirySuccess} />
         </div>
       </section>
     </>

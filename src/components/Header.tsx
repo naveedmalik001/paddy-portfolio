@@ -16,11 +16,11 @@ export default function Header() {
   }, [])
 
   const navigation = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Contact', href: '/contact' },
   ]
 
   return (
@@ -53,7 +53,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="#contact" className="btn-primary">
+            <a href="/contact" className="btn-primary">
               Start a Collaboration
             </a>
           </div>
@@ -96,7 +96,7 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <a href="#contact" className="btn-primary text-center">
+              <a href="/contact" className="btn-primary text-center">
                 Start a Collaboration
               </a>
             </div>

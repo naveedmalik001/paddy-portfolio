@@ -41,10 +41,10 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
-              <a href="#contact" className="btn-primary">
+              <a href="/contact" className="btn-primary">
                 Start a Collaboration
               </a>
-              <a href="#portfolio" className="btn-secondary">
+              <a href="/portfolio" className="btn-secondary">
                 View Selected Work
               </a>
             </div>
