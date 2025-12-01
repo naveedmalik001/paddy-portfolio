@@ -85,20 +85,87 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4">
-            <div className="flex flex-col space-y-4">
-              {navigation.map((item) => (
+            <div className="card p-6 space-y-4">
+              <div className="flex items-center justify-between mb-6">
+                <div className="text-xl font-bold text-gradient">Menu</div>
+                <button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="text-white/60 hover:text-white transition-colors"
+                  aria-label="Close mobile menu"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              <div className="space-y-2">
+                {navigation.map((item, index) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className={`flex items-center p-3 rounded-lg hover:bg-white/10 transition-all duration-200 ${
+                      index === 0 ? 'text-gradient font-semibold' : 'text-white/80 hover:text-white'
+                    }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    <span className="mr-3">
+                      {index === 0 && <span className="text-lg">🏠</span>}
+                      {index === 1 && <span className="text-lg">👤</span>}
+                      {index === 2 && <span className="text-lg">🛠️</span>}
+                      {index === 3 && <span className="text-lg">🎨</span>}
+                      {index === 4 && <span className="text-lg">📧</span>}
+                    </span>
+                    <span>{item.name}</span>
+                  </a>
+                ))}
+              </div>
+
+              <div className="pt-4 border-t border-white/10">
                 <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-white/80 hover:text-white transition-colors duration-200"
+                  href="/contact"
+                  className="btn-primary w-full text-center flex items-center justify-center"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  {item.name}
+                  <span className="mr-2">🚀</span>
+                  Start a Collaboration
                 </a>
-              ))}
-              <a href="/contact" className="btn-primary text-center">
-                Start a Collaboration
-              </a>
+              </div>
+
+              {/* Social Links */}
+              <div className="pt-4 border-t border-white/10">
+                <div className="flex justify-center space-x-4">
+                  <a
+                    href="#"
+                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-white/20 hover:text-white transition-all duration-200"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    📷
+                  </a>
+                  <a
+                    href="#"
+                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-white/20 hover:text-white transition-all duration-200"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    🐦
+                  </a>
+                  <a
+                    href="#"
+                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-white/20 hover:text-white transition-all duration-200"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    📺
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         )}

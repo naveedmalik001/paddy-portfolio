@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import PortfolioGrid from '@/components/PortfolioGrid'
 import VideoSlider from '@/components/VideoSlider'
 
@@ -11,21 +9,75 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
+    <main>
         {/* Hero Section */}
         <section className="section-padding">
           <div className="container">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                <span className="text-gradient">Portfolio</span>
-                <span className="block text-white">Selected Work</span>
-              </h1>
-              <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
-                A curated collection of my finest work, showcasing brand collaborations,
-                creative projects, and content that has made an impact.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Content */}
+              <div className="text-center lg:text-left space-y-6">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                  <span className="text-gradient">Portfolio</span>
+                  <span className="block text-white">Selected Work</span>
+                </h1>
+                <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
+                  A curated collection of my finest work, showcasing brand collaborations,
+                  creative projects, and content that has made an impact.
+                </p>
+
+                {/* Portfolio Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">500+</div>
+                    <div className="text-sm text-white/60">Projects</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
+                    <div className="text-sm text-white/60">Brands</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">15M+</div>
+                    <div className="text-sm text-white/60">Impressions</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">100%</div>
+                    <div className="text-sm text-white/60">Creative</div>
+                  </div>
+                </div>
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
+                  <a href="/contact" className="btn-primary">
+                    Start Project
+                  </a>
+                  <a href="/services" className="btn-secondary">
+                    Our Services
+                  </a>
+                </div>
+              </div>
+
+              {/* Right Content - Portfolio Visual */}
+              <div className="relative">
+                <div className="relative mx-auto w-full max-w-md aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                  {/* Placeholder for portfolio visual */}
+                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+                    <div className="text-center space-y-4">
+                      <div className="text-6xl">🎨</div>
+                      <p className="text-white/60">Creative Portfolio</p>
+                    </div>
+                  </div>
+
+                  {/* Decorative ring */}
+                  <div className="absolute inset-0 rounded-3xl border-2 border-primary/20" />
+
+                  {/* Glow effect */}
+                  <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl opacity-50" />
+                </div>
+
+                {/* Floating elements */}
+                <div className="absolute top-10 -right-10 w-20 h-20 bg-primary/20 rounded-full blur-xl" />
+                <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-secondary/20 rounded-full blur-2xl" />
+              </div>
             </div>
           </div>
         </section>
@@ -261,7 +313,5 @@ export default function PortfolioPage() {
           </div>
         </section>
       </main>
-      <Footer />
-    </div>
   )
 }

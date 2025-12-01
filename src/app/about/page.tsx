@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'About Paddy - Professional Influencer & Content Creator',
@@ -9,21 +7,75 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
+    <main>
         {/* Hero Section */}
         <section className="section-padding">
           <div className="container">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                <span className="text-gradient">About</span>
-                <span className="block text-white">Paddy</span>
-              </h1>
-              <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
-                Professional content creator, brand influencer, and creative storyteller
-                passionate about crafting authentic and engaging digital experiences.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Content */}
+              <div className="text-center lg:text-left space-y-6">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                  <span className="text-gradient">About</span>
+                  <span className="block text-white">Paddy</span>
+                </h1>
+                <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
+                  Professional content creator, brand influencer, and creative storyteller
+                  passionate about crafting authentic and engaging digital experiences.
+                </p>
+
+                {/* Quick Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">2M+</div>
+                    <div className="text-sm text-white/60">Followers</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">500+</div>
+                    <div className="text-sm text-white/60">Campaigns</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
+                    <div className="text-sm text-white/60">Brands</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">15M+</div>
+                    <div className="text-sm text-white/60">Impressions</div>
+                  </div>
+                </div>
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
+                  <a href="/contact" className="btn-primary">
+                    Get in Touch
+                  </a>
+                  <a href="/portfolio" className="btn-secondary">
+                    View Work
+                  </a>
+                </div>
+              </div>
+
+              {/* Right Content - Hero Image */}
+              <div className="relative">
+                <div className="relative mx-auto w-full max-w-md aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                  {/* Placeholder for about hero image */}
+                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+                    <div className="text-center space-y-4">
+                      <div className="text-6xl">👤</div>
+                      <p className="text-white/60">Professional Photo</p>
+                    </div>
+                  </div>
+
+                  {/* Decorative ring */}
+                  <div className="absolute inset-0 rounded-3xl border-2 border-primary/20" />
+
+                  {/* Glow effect */}
+                  <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl opacity-50" />
+                </div>
+
+                {/* Floating elements */}
+                <div className="absolute top-10 -right-10 w-20 h-20 bg-primary/20 rounded-full blur-xl" />
+                <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-secondary/20 rounded-full blur-2xl" />
+              </div>
             </div>
           </div>
         </section>
@@ -233,7 +285,5 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <Footer />
-    </div>
   )
 }
