@@ -20,8 +20,9 @@ export default function AboutPage() {
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
                   Professional body double and stunt artist specializing in athlete representation.
-                  6+ years of experience as the official body double for Hardik Pandya & Jasprit Bumrah
-                  with 50+ completed projects across commercials, sports shoots, and digital campaigns.
+                  The official body double for Hardik Pandya & Jasprit Bumrah with 6+ years of experience
+                  and 50+ completed projects across commercials, sports shoots, and digital campaigns.
+                  Based in Mumbai, India and available for domestic and international shoots.
                 </p>
 
                 {/* Quick Stats */}

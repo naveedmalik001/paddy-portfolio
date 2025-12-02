@@ -10,12 +10,13 @@ export default function Hero() {
           <div className="text-center lg:text-left space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                <span className="block text-gradient">Body Double</span>
-                <span className="block text-white">Professional</span>
+                <span className="block text-gradient">Paddy Chougule</span>
+                <span className="block text-white">Body Double Professional</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
                 Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah.
-                6+ years of experience with 50+ projects in commercials, sports shoots, and digital campaigns.
+                Based in Mumbai, India with 6+ years of experience and 50+ completed projects.
+                Available for commercials, sports shoots, and digital campaigns.
               </p>
             </div>
 

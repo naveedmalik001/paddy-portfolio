@@ -7,11 +7,11 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Paddy Chougule - Professional Body Double & Stunt Artist',
-  description: 'Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah. 6+ years experience with 50+ projects. Available for commercials, sports shoots, and digital campaigns.',
+  title: 'Paddy Chougule - Professional Body Double & Stunt Artist | Mumbai',
+  description: 'Paddy Chougule - Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah. 6+ years experience with 50+ projects. Based in Mumbai, India. Available for domestic and international shoots.',
   openGraph: {
-    title: 'Paddy Chougule - Professional Body Double & Stunt Artist',
-    description: 'Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah. 6+ years experience with 50+ projects. Available for commercials, sports shoots, and digital campaigns.',
+    title: 'Paddy Chougule - Professional Body Double & Stunt Artist | Mumbai',
+    description: 'Paddy Chougule - Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah. 6+ years experience with 50+ projects. Based in Mumbai, India. Available for domestic and international shoots.',
     type: 'website',
     locale: 'en_US',
   },

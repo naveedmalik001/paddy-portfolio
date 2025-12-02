@@ -20,11 +20,12 @@ export default function ContactPage() {
               <div className="text-center lg:text-left space-y-6">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                   <span className="text-gradient">Book</span>
-                  <span className="block text-white">Body Double Services</span>
+                  <span className="block text-white">Paddy Chougule</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
                   Available for professional body double and stunt artist services for your commercial productions,
                   sports campaigns, and digital media projects with Hardik Pandya & Jasprit Bumrah expertise.
+                  Based in Mumbai, India with 6+ years of experience and 50+ completed projects.
                 </p>
 
                 {/* Contact Stats */}
