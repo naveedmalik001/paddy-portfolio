@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import ServicesGrid from '@/components/ServicesGrid'
 
 export const metadata: Metadata = {
-  title: 'Services - Paddy | Professional Content Creator & Influencer',
-  description: 'Explore our comprehensive range of services including brand collaborations, content creation, social media strategy, and influencer marketing.',
+  title: 'Services - Paddy Chougule | Professional Body Double & Stunt Artist',
+  description: 'Professional body double services including athlete representation, stunt coordination, movement replication, and production support for sports commercials and digital campaigns.',
 }
 
 export default function ServicesPage() {
@@ -16,41 +16,41 @@ export default function ServicesPage() {
               {/* Left Content */}
               <div className="text-center lg:text-left space-y-6">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  <span className="text-gradient">Services</span>
-                  <span className="block text-white">Offered</span>
+                  <span className="text-gradient">Body Double</span>
+                  <span className="block text-white">Services</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
-                  Comprehensive content creation and brand collaboration services designed
-                  to elevate your brand presence and connect with your target audience authentically.
+                  Professional body double and stunt artist services specializing in athlete representation
+                  for Hardik Pandya & Jasprit Bumrah. Available for commercials, sports shoots, and digital campaigns.
                 </p>
 
                 {/* Service Stats */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">15+</div>
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">6</div>
                     <div className="text-sm text-white/60">Services</div>
                   </div>
                   <div className="text-center lg:text-left">
                     <div className="text-2xl md:text-3xl font-bold text-gradient">24/7</div>
-                    <div className="text-sm text-white/60">Support</div>
+                    <div className="text-sm text-white/60">Availability</div>
                   </div>
                   <div className="text-center lg:text-left">
                     <div className="text-2xl md:text-3xl font-bold text-gradient">100%</div>
-                    <div className="text-sm text-white/60">Dedicated</div>
+                    <div className="text-sm text-white/60">Professional</div>
                   </div>
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">5★</div>
-                    <div className="text-sm text-white/60">Rated</div>
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">2025</div>
+                    <div className="text-sm text-white/60">Booking Open</div>
                   </div>
                 </div>
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
                   <a href="/contact" className="btn-primary">
-                    Get Started
+                    Book Body Double Services
                   </a>
                   <a href="/portfolio" className="btn-secondary">
-                    View Portfolio
+                    View Projects
                   </a>
                 </div>
               </div>
@@ -61,8 +61,8 @@ export default function ServicesPage() {
                   {/* Placeholder for services visual */}
                   <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                     <div className="text-center space-y-4">
-                      <div className="text-6xl">🛠️</div>
-                      <p className="text-white/60">Professional Services</p>
+                      <div className="text-6xl">🎭</div>
+                      <p className="text-white/60">Body Double Professional</p>
                     </div>
                   </div>
 
@@ -89,104 +89,102 @@ export default function ServicesPage() {
           <div className="container">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                <span className="text-gradient">Service Details</span>
+                <span className="text-gradient">Body Double Services</span>
               </h2>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                {/* Content Creation Services */}
+                {/* Body Double Performance */}
                 <div className="card p-8">
                   <div className="flex items-center mb-6">
-                    <div className="text-3xl mr-4">📸</div>
-                    <h3 className="text-2xl font-semibold text-white">Content Creation</h3>
+                    <div className="text-3xl mr-4">🎭</div>
+                    <h3 className="text-2xl font-semibold text-white">Body Double Performance</h3>
                   </div>
                   <div className="space-y-4 text-white/80">
                     <p>
-                      Professional photography and videography services tailored to your brand's
-                      unique voice and aesthetic. From product shoots to lifestyle content,
-                      we create visually compelling narratives.
+                      Professional body double services with precise posture matching and movement replication
+                      for premier cricket athletes. Perfect for commercials, sports shoots, and digital campaigns.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Product Photography & Videography</span>
+                        <span>Precise Posture & Body Matching</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Lifestyle & Editorial Content</span>
+                        <span>Athletic Movement Replication</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Behind-the-scenes Content</span>
+                        <span>Cricket Action Sequences</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Professional Photo & Video Editing</span>
+                        <span>Professional Continuity</span>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                {/* Social Media Management */}
+                {/* Stunt Coordination Services */}
                 <div className="card p-8">
                   <div className="flex items-center mb-6">
-                    <div className="text-3xl mr-4">📱</div>
-                    <h3 className="text-2xl font-semibold text-white">Social Media Strategy</h3>
+                    <div className="text-3xl mr-4">🏃</div>
+                    <h3 className="text-2xl font-semibold text-white">Stunt Coordination</h3>
                   </div>
                   <div className="space-y-4 text-white/80">
                     <p>
-                      Strategic social media management to grow your online presence,
-                      engage with your audience, and build brand loyalty through consistent,
-                      authentic content.
+                      Professional stunt coordination and athletic movement execution for sports commercials,
+                      action sequences, and promotional campaigns. Safe and reliable performance.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Content Calendar Development</span>
+                        <span>Athletic Stunt Performance</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Audience Growth Strategies</span>
+                        <span>Safe Movement Coordination</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Engagement & Community Management</span>
+                        <span>Technical Cricket Actions</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Analytics & Performance Reporting</span>
+                        <span>Production Safety Standards</span>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                {/* Brand Collaborations */}
+                {/* Production Support */}
                 <div className="card p-8">
                   <div className="flex items-center mb-6">
-                    <div className="text-3xl mr-4">🤝</div>
-                    <h3 className="text-2xl font-semibold text-white">Brand Collaborations</h3>
+                    <div className="text-3xl mr-4">🎬</div>
+                    <h3 className="text-2xl font-semibold text-white">Production Support</h3>
                   </div>
                   <div className="space-y-4 text-white/80">
                     <p>
-                      Authentic brand partnerships that resonate with our engaged audience.
-                      We work closely with brands to create meaningful connections and
-                      drive measurable results.
+                      Complete pre-production and on-set support for sports commercials
+                      and digital campaigns. Expert assistance with lighting, camera setup,
+                      and technical requirements.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Sponsored Content Campaigns</span>
+                        <span>Lighting & Camera Setup</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Product Seeding & Reviews</span>
+                        <span>Shadow Alignment Tests</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Brand Ambassadorships</span>
+                        <span>Posture Matching</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Event Appearances & Hosting</span>
+                        <span>Technical Coordination</span>
                       </li>
                     </ul>
                   </div>
@@ -233,10 +231,10 @@ export default function ServicesPage() {
           <div className="container">
             <div className="max-w-4xl mx-auto text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                <span className="text-gradient">Our Process</span>
+                <span className="text-gradient">Body Double Process</span>
               </h2>
               <p className="text-lg text-white/80">
-                A streamlined approach to ensure successful collaborations and outstanding results
+                Professional body double engagement process ensuring seamless integration with production teams and authentic athletic representation
               </p>
             </div>
 
@@ -245,36 +243,36 @@ export default function ServicesPage() {
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">1</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Discovery</h3>
+                <h3 className="text-lg font-semibold text-white mb-2">Project Assessment</h3>
                 <p className="text-white/60 text-sm">
-                  Understanding your brand, goals, and target audience to create a tailored strategy
+                  Detailed analysis of body double requirements and athletic movement specifications
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">2</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Strategy</h3>
+                <h3 className="text-lg font-semibold text-white mb-2">Physical Matching</h3>
                 <p className="text-white/60 text-sm">
-                  Developing a comprehensive content and collaboration strategy that aligns with your objectives
+                  Posture analysis, body type matching, and movement capability assessment
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">3</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Creation</h3>
+                <h3 className="text-lg font-semibold text-white mb-2">Technical Preparation</h3>
                 <p className="text-white/60 text-sm">
-                  Producing high-quality, authentic content that resonates with your audience
+                  Movement rehearsal, camera positioning coordination, and lighting test participation
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">4</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Analysis</h3>
+                <h3 className="text-lg font-semibold text-white mb-2">On-Set Performance</h3>
                 <p className="text-white/60 text-sm">
-                  Measuring performance and optimizing future campaigns based on data-driven insights
+                  Professional body double execution with precise movement replication and technical accuracy
                 </p>
               </div>
             </div>
@@ -286,17 +284,18 @@ export default function ServicesPage() {
           <div className="container">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                <span className="text-gradient">Ready to Collaborate?</span>
+                <span className="text-gradient">Ready to Book Body Double Services?</span>
               </h2>
               <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-                Let's discuss how our services can help elevate your brand and connect with your target audience authentically.
+                Let's discuss how my professional body double services can enhance your commercial production
+                with authentic athletic movement and seamless continuity.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="/contact" className="btn-primary inline-block">
-                  Get Started
+                  Book Services
                 </a>
                 <a href="/contact" className="btn-secondary inline-block">
-                  View Portfolio
+                  View Projects
                 </a>
               </div>
             </div>

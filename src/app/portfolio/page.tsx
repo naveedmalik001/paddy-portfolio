@@ -3,8 +3,8 @@ import PortfolioGrid from '@/components/PortfolioGrid'
 import VideoSlider from '@/components/VideoSlider'
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Paddy | Professional Content Creator & Influencer',
-  description: 'Explore our portfolio of brand collaborations, creative projects, and successful campaigns. Photography, videography, and social media content.',
+  title: 'Portfolio - Paddy Chougule | Professional Body Double & Stunt Artist',
+  description: 'Professional body double portfolio featuring projects with Hardik Pandya & Jasprit Bumrah. Commercial campaigns, sports shoots, and digital media work.',
 }
 
 export default function PortfolioPage() {

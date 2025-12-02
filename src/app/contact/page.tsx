@@ -1,6 +1,8 @@
 'use client'
 
+import { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
+
 
 export default function ContactPage() {
   const handleEnquirySuccess = (ticketId: string) => {
@@ -17,12 +19,12 @@ export default function ContactPage() {
               {/* Left Content */}
               <div className="text-center lg:text-left space-y-6">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  <span className="text-gradient">Let's</span>
-                  <span className="block text-white">Connect</span>
+                  <span className="text-gradient">Book</span>
+                  <span className="block text-white">Body Double Services</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
-                  Ready to collaborate? I'm excited to hear about your project and discuss
-                  how we can create something amazing together.
+                  Available for professional body double and stunt artist services for your commercial productions,
+                  sports campaigns, and digital media projects with Hardik Pandya & Jasprit Bumrah expertise.
                 </p>
 
                 {/* Contact Stats */}
@@ -32,8 +34,8 @@ export default function ContactPage() {
                     <div className="text-sm text-white/60">Response Time</div>
                   </div>
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">98%</div>
-                    <div className="text-sm text-white/60">Client Satisfaction</div>
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">100%</div>
+                    <div className="text-sm text-white/60">Professional</div>
                   </div>
                   <div className="text-center lg:text-left">
                     <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
@@ -44,10 +46,10 @@ export default function ContactPage() {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
                   <a href="/portfolio" className="btn-primary">
-                    View Portfolio
+                    View Projects
                   </a>
                   <a href="/services" className="btn-secondary">
-                    Our Services
+                    Body Double Services
                   </a>
                 </div>
               </div>
@@ -58,8 +60,8 @@ export default function ContactPage() {
                   {/* Placeholder for contact visual */}
                   <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                     <div className="text-center space-y-4">
-                      <div className="text-6xl">📧</div>
-                      <p className="text-white/60">Get in Touch</p>
+                      <div className="text-6xl">🎭</div>
+                      <p className="text-white/60">Paddy Chougule<br/>Body Double Professional</p>
                     </div>
                   </div>
 
@@ -92,7 +94,7 @@ export default function ContactPage() {
           <div className="container">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                <span className="text-gradient">Get in Touch</span>
+                <span className="text-gradient">Contact Information</span>
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -100,10 +102,10 @@ export default function ContactPage() {
                   <div className="text-3xl mb-4">📧</div>
                   <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
                   <p className="text-white/60 text-sm">
-                    For business inquiries and collaboration proposals
+                    For body double services and collaboration inquiries
                   </p>
-                  <a href="mailto:contact@paddy.com" className="text-primary hover:text-primary/80 transition-colors mt-2 inline-block">
-                    contact@paddy.com
+                  <a href="mailto:paddy@bodydouble.com" className="text-primary hover:text-primary/80 transition-colors mt-2 inline-block">
+                    paddy@bodydouble.com
                   </a>
                 </div>
 
@@ -130,10 +132,10 @@ export default function ContactPage() {
                   <div className="text-3xl mb-4">📍</div>
                   <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
                   <p className="text-white/60 text-sm">
-                    Based in [City], available for travel and remote collaborations
+                    Based in Mumbai, India. Available for domestic & international shoots.
                   </p>
                   <p className="text-primary mt-2">
-                    [City, Country]
+                    Mumbai, India
                   </p>
                 </div>
 
@@ -157,27 +159,27 @@ export default function ContactPage() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                <span className="text-gradient">Collaboration Types</span>
+                <span className="text-gradient">Body Double Services</span>
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="border border-white/10 rounded-xl p-6 hover:border-primary/50 transition-colors">
-                  <h3 className="text-xl font-semibold text-white mb-4">Brand Partnerships</h3>
+                  <h3 className="text-xl font-semibold text-white mb-4">Athlete Representation</h3>
                   <ul className="space-y-2 text-white/60">
-                    <li>• Sponsored content campaigns</li>
-                    <li>• Product collaborations</li>
-                    <li>• Brand ambassadorships</li>
-                    <li>• Event appearances</li>
+                    <li>• Hardik Pandya body double</li>
+                    <li>• Jasprit Bumrah body double</li>
+                    <li>• Cricket movement replication</li>
+                    <li>• Athletic action sequences</li>
                   </ul>
                 </div>
 
                 <div className="border border-white/10 rounded-xl p-6 hover:border-primary/50 transition-colors">
-                  <h3 className="text-xl font-semibold text-white mb-4">Content Creation</h3>
+                  <h3 className="text-xl font-semibold text-white mb-4">Production Support</h3>
                   <ul className="space-y-2 text-white/60">
-                    <li>• Photography services</li>
-                    <li>• Videography projects</li>
-                    <li>• Social media content</li>
-                    <li>• Creative consulting</li>
+                    <li>• Lighting & camera setup</li>
+                    <li>• Shadow alignment tests</li>
+                    <li>• Posture matching</li>
+                    <li>• Technical coordination</li>
                   </ul>
                 </div>
 

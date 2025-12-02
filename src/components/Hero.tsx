@@ -10,42 +10,42 @@ export default function Hero() {
           <div className="text-center lg:text-left space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                <span className="block text-gradient">Creative</span>
-                <span className="block text-white">Storyteller</span>
+                <span className="block text-gradient">Body Double</span>
+                <span className="block text-white">Professional</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
-                Professional content creator crafting compelling brand stories
-                through photography, video, and authentic social media presence.
+                Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah.
+                6+ years of experience with 50+ projects in commercials, sports shoots, and digital campaigns.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">2M+</div>
-                <div className="text-sm text-white/60">Followers</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">500+</div>
-                <div className="text-sm text-white/60">Campaigns</div>
-              </div>
-              <div className="text-center lg:text-left">
                 <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
-                <div className="text-sm text-white/60">Brands</div>
+                <div className="text-sm text-white/60">Projects</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">15M+</div>
-                <div className="text-sm text-white/60">Impressions</div>
+                <div className="text-2xl md:text-3xl font-bold text-gradient">6+</div>
+                <div className="text-sm text-white/60">Years Exp.</div>
+              </div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl md:text-3xl font-bold text-gradient">2</div>
+                <div className="text-sm text-white/60">Cricket Stars</div>
+              </div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl md:text-3xl font-bold text-gradient">5'10"</div>
+                <div className="text-sm text-white/60">Height</div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
               <a href="/contact" className="btn-primary">
-                Start a Collaboration
+                Book Body Double Services
               </a>
               <a href="/portfolio" className="btn-secondary">
-                View Selected Work
+                View Portfolio
               </a>
             </div>
           </div>
@@ -56,8 +56,8 @@ export default function Hero() {
               {/* Placeholder for hero image */}
               <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                 <div className="text-center space-y-4">
-                  <div className="text-6xl">📸</div>
-                  <p className="text-white/60">Hero Image</p>
+                  <div className="text-6xl">🎭</div>
+                  <p className="text-white/60">Paddy Chougule<br/>Body Double Professional</p>
                 </div>
               </div>
 

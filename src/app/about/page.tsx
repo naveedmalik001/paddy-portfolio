@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Paddy - Professional Influencer & Content Creator',
-  description: 'Learn more about Paddy - professional content creator, influencer, and brand collaborator. Detailed profile, body measurements, and background information.',
+  title: 'About Paddy Chougule - Professional Body Double & Stunt Artist',
+  description: 'Professional body double and stunt artist for Hardik Pandya & Jasprit Bumrah. 6+ years experience with 50+ projects. Available for domestic and international shoots.',
 }
 
 export default function AboutPage() {
@@ -16,30 +16,31 @@ export default function AboutPage() {
               <div className="text-center lg:text-left space-y-6">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                   <span className="text-gradient">About</span>
-                  <span className="block text-white">Paddy</span>
+                  <span className="block text-white">Paddy Chougule</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg mx-auto lg:mx-0">
-                  Professional content creator, brand influencer, and creative storyteller
-                  passionate about crafting authentic and engaging digital experiences.
+                  Professional body double and stunt artist specializing in athlete representation.
+                  6+ years of experience as the official body double for Hardik Pandya & Jasprit Bumrah
+                  with 50+ completed projects across commercials, sports shoots, and digital campaigns.
                 </p>
 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">2M+</div>
-                    <div className="text-sm text-white/60">Followers</div>
-                  </div>
-                  <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">500+</div>
-                    <div className="text-sm text-white/60">Campaigns</div>
-                  </div>
-                  <div className="text-center lg:text-left">
                     <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
-                    <div className="text-sm text-white/60">Brands</div>
+                    <div className="text-sm text-white/60">Projects</div>
                   </div>
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl md:text-3xl font-bold text-gradient">15M+</div>
-                    <div className="text-sm text-white/60">Impressions</div>
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">6+</div>
+                    <div className="text-sm text-white/60">Years Exp.</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">2</div>
+                    <div className="text-sm text-white/60">Cricket Stars</div>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-2xl md:text-3xl font-bold text-gradient">5'10"</div>
+                    <div className="text-sm text-white/60">Height</div>
                   </div>
                 </div>
 
@@ -60,8 +61,8 @@ export default function AboutPage() {
                   {/* Placeholder for about hero image */}
                   <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                     <div className="text-center space-y-4">
-                      <div className="text-6xl">👤</div>
-                      <p className="text-white/60">Professional Photo</p>
+                      <div className="text-6xl">🎭</div>
+                      <p className="text-white/60">Paddy Chougule<br/>Body Double Professional</p>
                     </div>
                   </div>
 
@@ -86,22 +87,23 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold">
-                  <span className="text-gradient">Profile</span>
+                  <span className="text-gradient">Professional Profile</span>
                 </h2>
                 <div className="space-y-4 text-white/80">
                   <p>
-                    With over 2 million followers across social media platforms, I've established
-                    myself as a trusted voice in lifestyle, fashion, and brand storytelling.
-                    My approach combines authentic content creation with strategic brand partnerships.
+                    Professional body double and stunt artist with over 6 years of specialized experience
+                    in athlete representation. I've established myself as trusted body double for
+                    premier Indian cricket stars Hardik Pandya and Jasprit Bumrah.
                   </p>
                   <p>
-                    Based in [Location], I work with global brands to create compelling narratives
-                    that resonate with diverse audiences. My expertise spans photography, videography,
-                    social media strategy, and brand development.
+                    Based in Mumbai, India, I work with leading sports brands, broadcasting networks,
+                    and production houses to deliver seamless on-screen performances. My expertise
+                    includes precise posture matching, movement replication, and technical stunt coordination.
                   </p>
                   <p>
-                    I believe in the power of authentic storytelling and building genuine connections
-                    between brands and their target audiences through creative, relatable content.
+                    With distinctive features including no tattoos and perfect physical matching,
+                    I provide production teams with reliable continuity and authentic athletic movement
+                    representation for commercials, sports shoots, and digital campaigns.
                   </p>
                 </div>
               </div>
@@ -124,96 +126,96 @@ export default function AboutPage() {
           <div className="container">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                <span className="text-gradient">Physical Profile</span>
+                <span className="text-gradient">Professional Specifications</span>
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* Basic Measurements Card */}
+                {/* Physical Details Card */}
                 <div className="card p-6 md:p-8">
                   <div className="text-center mb-6">
                     <div className="text-4xl mb-2">📏</div>
-                    <h3 className="text-xl font-semibold text-white mb-2">Basic Measurements</h3>
+                    <h3 className="text-xl font-semibold text-white mb-2">Physical Details</h3>
                   </div>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-white/60">Height</span>
-                      <span className="text-white font-medium">[Height]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Weight</span>
-                      <span className="text-white font-medium">[Weight]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Chest</span>
-                      <span className="text-white font-medium">[Chest Size]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Waist</span>
-                      <span className="text-white font-medium">[Waist Size]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Hips</span>
-                      <span className="text-white font-medium">[Hip Size]</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Detailed Profile Card */}
-                <div className="card p-6 md:p-8">
-                  <div className="text-center mb-6">
-                    <div className="text-4xl mb-2">🎭</div>
-                    <h3 className="text-xl font-semibold text-white mb-2">Detailed Profile</h3>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Hair Color</span>
-                      <span className="text-white font-medium">[Hair Color]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Eye Color</span>
-                      <span className="text-white font-medium">[Eye Color]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Skin Tone</span>
-                      <span className="text-white font-medium">[Skin Tone]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Shoe Size</span>
-                      <span className="text-white font-medium">[Shoe Size]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Body Type</span>
-                      <span className="text-white font-medium">[Body Type]</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Poster/Professional Info Card */}
-                <div className="card p-6 md:p-8">
-                  <div className="text-center mb-6">
-                    <div className="text-4xl mb-2">📸</div>
-                    <h3 className="text-xl font-semibold text-white mb-2">Professional Info</h3>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Experience</span>
-                      <span className="text-white font-medium">[Years]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Specialties</span>
-                      <span className="text-white font-medium">[Fields]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Languages</span>
-                      <span className="text-white font-medium">[Languages]</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60">Available</span>
-                      <span className="text-white font-medium">[Status]</span>
+                      <span className="text-white font-medium">5'10"</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-white/60">Location</span>
-                      <span className="text-white font-medium">[Location]</span>
+                      <span className="text-white font-medium">Mumbai, India</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Experience</span>
+                      <span className="text-white font-medium">6+ Years</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Tattoos</span>
+                      <span className="text-white font-medium">None</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Projects</span>
+                      <span className="text-white font-medium">50+ Completed</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Body Double Services Card */}
+                <div className="card p-6 md:p-8">
+                  <div className="text-center mb-6">
+                    <div className="text-4xl mb-2">🎭</div>
+                    <h3 className="text-xl font-semibold text-white mb-2">Body Double Services</h3>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Athletes</span>
+                      <span className="text-white font-medium">2 Major Stars</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Movement</span>
+                      <span className="text-white font-medium">Cricket Specialist</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Camera Work</span>
+                      <span className="text-white font-medium">Lighting Expert</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Stunts</span>
+                      <span className="text-white font-medium">Athletic Sequences</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Availability</span>
+                      <span className="text-white font-medium">Passport Ready</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Business & Availability Card */}
+                <div className="card p-6 md:p-8">
+                  <div className="text-center mb-6">
+                    <div className="text-4xl mb-2">💼</div>
+                    <h3 className="text-xl font-semibold text-white mb-2">Business Details</h3>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Working Hours</span>
+                      <span className="text-white font-medium">12-hour shifts</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Travel</span>
+                      <span className="text-white font-medium">Domestic & Int'l</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Languages</span>
+                      <span className="text-white font-medium">Hindi, English</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Status</span>
+                      <span className="text-white font-medium">Available 2025</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/60">Instagram</span>
+                      <span className="text-white font-medium">@jr.hardikpandyaa93</span>
                     </div>
                   </div>
                 </div>
@@ -265,20 +267,20 @@ export default function AboutPage() {
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">2M+</div>
-                  <div className="text-sm text-white/60">Social Media Followers</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">500+</div>
-                  <div className="text-sm text-white/60">Brand Campaigns</div>
-                </div>
-                <div className="text-center">
                   <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">50+</div>
-                  <div className="text-sm text-white/60">Brand Partnerships</div>
+                  <div className="text-sm text-white/60">Body Double Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">15M+</div>
-                  <div className="text-sm text-white/60">Content Impressions</div>
+                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">6+</div>
+                  <div className="text-sm text-white/60">Years Experience</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">2</div>
+                  <div className="text-sm text-white/60">Major Cricket Stars</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">2025</div>
+                  <div className="text-sm text-white/60">Available For Bookings</div>
                 </div>
               </div>
             </div>
